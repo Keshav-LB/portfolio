@@ -40,6 +40,16 @@ const projects = [
     demoUrl: "#",
     githubUrl: "#",
   },
+  {
+    id: 5,
+    title: "Number Guessing game",
+    description:
+      "A fun and addictive number guessing game built using React and CSS5. Guess the secret number between 0 and 100, and challenge yourself to get the highest score with the fewest attempts!",
+    image: "/projects/NumberGuessGame.png",
+    tags: ["Javascript", "css5", "React+vite"],
+    demoUrl: "https://number-guess-game-steel.vercel.app/",
+    githubUrl: "https://github.com/Keshav-LB/NumberGuessGame",
+  },
 ];
 
 export const ProjectsSection = () => {
