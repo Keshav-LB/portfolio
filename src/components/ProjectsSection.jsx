@@ -11,7 +11,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 2,
+    id: 4,
     title: "Fly Away",
     description:
       "FlyAway is a ticket-booking portal that lets people book flights on the website.",
@@ -31,7 +31,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 4,
+    id: 2,
     title: "E-commerce Platform",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",

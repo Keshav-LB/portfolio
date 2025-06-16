@@ -70,52 +70,42 @@ export const ContactSection = () => {
               Contact Information
             </h3>
             {/* Transparent card with border and shadow */}
-            <div className="bg-card/60 backdrop-blur-none border border-border rounded-lg shadow-lg p-8">
+            <div className="bg-card/60 backdrop-blur-none border border-border rounded-lg shadow-lg p-8 w-full max-w-md mx-auto overflow-hidden">
               <div className="space-y-6 justify-center">
-                <div className="flex  items-center space-x-4">
-                  <div className="p-3 rounded-full bg-primary/10 ">
-                    <Mail className="h-6 w-6 text-primary" />{" "}
+                <div className="flex items-center space-x-4">
+                  <div className="p-3 rounded-full bg-primary/10 flex-shrink-0">
+                    <Mail className="h-6 w-6 text-primary" />
                   </div>
-                  <div>
-                    {/* <h4 className="font-medium"> Mail :</h4> */}
-                    <a
-                      href="mailto:keshavmishra1001@gmail.com"
-                      className="text-muted-foreground hover:text-primary transition-colors text-lg"
-                    >
-                      keshavmishra1001@gmail.com
-                    </a>
-                  </div>
+                  <a
+                    href="mailto:keshavmishra1001@gmail.com"
+                    className="text-muted-foreground hover:text-primary transition-colors text-base sm:text-lg md:text-xl break-all flex-1"
+                  >
+                    keshavmishra1001@gmail.com
+                  </a>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="p-3 rounded-full bg-primary/10">
-                    <Phone className="h-6 w-6 text-primary" />{" "}
+                  <div className="p-3 rounded-full bg-primary/10 flex-shrink-0">
+                    <Phone className="h-6 w-6 text-primary" />
                   </div>
-                  <div>
-                    {/* <h4 className="font-medium"> Phone :</h4> */}
-                    <a
-                      href="tel:+917981401547"
-                      className="text-muted-foreground hover:text-primary transition-colors text-lg"
-                    >
-                      +917981401547
-                    </a>
-                  </div>
+                  <a
+                    href="tel:+917981401547"
+                    className="text-muted-foreground hover:text-primary transition-colors text-base sm:text-lg md:text-xl break-all flex-1"
+                  >
+                    +917981401547
+                  </a>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="p-3 rounded-full bg-primary/10">
-                    <MapPin className="h-6 w-6 text-primary" />{" "}
+                  <div className="p-3 rounded-full bg-primary/10 flex-shrink-0">
+                    <MapPin className="h-6 w-6 text-primary" />
                   </div>
-                  <div>
-                    {/* <h4 className="font-medium"> Location :</h4> */}
-                    <a className="text-muted-foreground hover:text-primary transition-colors text-lg">
-                      Hyderabad, India
-                    </a>
-                  </div>
+                  <span className="text-muted-foreground text-base sm:text-lg md:text-xl break-words flex-1">
+                    Hyderabad, India
+                  </span>
                 </div>
               </div>
-
               <div className="pt-8">
-                <h4 className="font-medium mb-4"> Connect With Me</h4>
-                <div className="flex space-x-4 justify-center">
+                <h4 className="font-medium mb-4 text-center">Connect With Me</h4>
+                <div className="flex space-x-4 justify-center flex-wrap">
                   <a
                     href="https://www.linkedin.com/in/keshavmishra10/"
                     target="_blank"
