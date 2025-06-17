@@ -7,6 +7,7 @@ import { ProjectsSection } from "../components/ProjectsSection"
 import { SkillsSection } from "../components/SkillsSection"
 import { StarBackground } from "../components/StarBackground"
 import { ThemeToggle } from "@/components/ThemeToggle"
+import { WorkExperienceSection } from "../components/WorkExperienceSection";
 
 export const Home=()=>{
     return(
@@ -22,6 +23,7 @@ export const Home=()=>{
             <main>
                 <HeroSection />
                 <AboutSection />
+                <WorkExperienceSection />
                 <SkillsSection />
                 <ProjectsSection />
                 <ContactSection />
